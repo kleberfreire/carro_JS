@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Só Nave</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <span data-js="company-name"></span>
+            <span data-js="company-phone"></span>
+        </h1>
+    </header>
+
+    <form data-js="form-carro">
+
+        <label>Imagem do carro: <input type="text" data-js="img-carro"></label><br><br>
+        <label>Marca / Modelo: <input type="text" data-js="marca-carro"></label><br><br>
+        <label>Ano: <input type="text" data-js="ano-carro"></label><br><br>
+        <label>Placa: <input type="text" data-js="placa-carro"></label><br><br>
+        <label>Cor: <input type="text" data-js="cor-carro"></label><br><br>
+        <button type="submit" data-js="submit-carro">CADASTRAR</button>
+        
+    </form>
+    </br>
+    </br>
+    <div data-js="status-button"></div>
+    </br>
+    </br>
+       <table style="width:100%" border="1" cellspacing="0" cellpadding="0">
+            <thead data-js="titulo-table">
+                    <th>CARRO</th>
+                    <th>MODELO</th>
+                    <th>ANO</th>
+                    <th>PLACA</th>
+                    <th>COR</th>
+            </thead>
+
+            <tbody data-js="tabela-carro"></tbody>
+        </table>
+    <div data-js="button"></div>
+    
+    <script src="DOM.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
